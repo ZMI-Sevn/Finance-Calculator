@@ -1,3 +1,5 @@
+# Finance Calculator provides a way for user to build a calculation into either "investment", "bond", "simple" and "compound".
+
 import math as math 
 
 print("investment - to calculate the amount of interest you'll earn on your investment")
@@ -6,8 +8,8 @@ print("bond - to calculate the amount you'll have to pay on a home loan")
 # User chooses either 'investment' or 'bond'
 # Variable is converted to lower-case in case they capitalise any part of the words
 
-decision = input("Enter either 'investment' or 'bond' from the menu above to proceed: ")
-choice = decision.lower()
+option = string(input("Enter either 'investment' or 'bond' from the menu above to proceed: "))
+choice = option.lower()
 
 # If the user provides anything other than the specified terms they should receive an error message
 
